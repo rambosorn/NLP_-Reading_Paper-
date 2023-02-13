@@ -17,7 +17,7 @@ BERT-of-Theseus: Compressing BERT by Progressive Module Replacing" provides a no
 |  | 2. Replace the original BERT modules with smaller, computationally efficient modules while keeping the overall architecture of the model intact.|
 |  | 3. Fine-tune the model with the new, smaller modules on the same large-scale dataset to evaluate its performance.|
 |  | 4. Repeat steps 2 and 3 until the desired level of compression is achieved.|
-| Future work | explore the possibility of applying Theseus Compression on heterogeneous network modules. First, many developed in-place substitutes (e.g., ShuffleNet unit (Zhang et al., 2018) for ResBlock (He et al., 2016), Reformer Layer (Kitaev et al., 2020) for Transformer Layer (Vaswani et al., 2017)) are natural successor modules that can be directly adopted in Theseus Compression. |
+| Future work | Explore the possibility of applying Theseus Compression on heterogeneous network modules. First, many developed in-place substitutes (e.g., ShuffleNet unit (Zhang et al., 2018) for ResBlock (He et al., 2016), Reformer Layer (Kitaev et al., 2020) for Transformer Layer (Vaswani et al., 2017)) are natural successor modules that can be directly adopted in Theseus Compression. |
 |   | Use a feed-forward neural network to map features between the hidden spaces of different sizes (Jiao et al., 2019) to enable replacement between modules with different input and output sizes.|
 
 
