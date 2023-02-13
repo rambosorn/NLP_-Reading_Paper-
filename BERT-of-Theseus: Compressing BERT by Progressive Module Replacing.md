@@ -1,12 +1,10 @@
 # BERT-of-Theseus: Compressing BERT by Progressive Module Replacing
-** credit source: https://aclanthology.org/2020.emnlp-main.633.pdf
 
-#### paper link:https://arxiv.org/abs/2003.07082
-#### github: https://github.com/stanfordnlp/stanza
-#### youtube:https://www.youtube.com/watch?v=Mtkktl0kHV0
+#### credit source: https://aclanthology.org/2020.emnlp-main.633.pdf
+
 
 ### Intro
-Stanza is a Python-based NLP toolkit developed by a group of researchers at Stanford University, including Peng Qi, Yuhao Zhang, Yuhui Zhang, Jason Bolton, and Christopher D. Manning. The toolkit supports multiple human languages and provides various NLP tools such as tokenization, parsing, named entity recognition, sentiment analysis, and more. Stanza is designed to be flexible and can be used for both research and production purposes.
+BERT-of-Theseus: Compressing BERT by Progressive Module Replacing" provides a novel approach for compressing large language models, and presents new insights into the trade-off between model size and accuracy in the field of natural language processing.
 
 | Command | Description |
 | --- | --- |
