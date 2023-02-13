@@ -1,4 +1,5 @@
 # BERT-of-Theseus: Compressing BERT by Progressive Module Replacing
+** credit source: https://aclanthology.org/2020.emnlp-main.633.pdf
 
 #### paper link:https://arxiv.org/abs/2003.07082
 #### github: https://github.com/stanfordnlp/stanza
