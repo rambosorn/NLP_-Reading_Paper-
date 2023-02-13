@@ -8,10 +8,8 @@ BERT-of-Theseus: Compressing BERT by Progressive Module Replacing" provides a no
 
 | Command | Description |
 | --- | --- |
-| Topic | Stanza: A Python Natural Language Processing Toolkit for Many Human Languages |
-| Challenge | 1. The lack of easy-to-use and accessible NLP libraries for different languages and domains. The need for faster and more efficient NLP models for large-scale text processing. |
-|  | 2. The requirement for more flexible and extensible NLP toolkits that can be easily customized for different NLP tasks and domains. |
-|  | 3. The need for NLP toolkits that are built on top of modern machine learning frameworks, such as PyTorch, to leverage the latest developments in deep learning and other NLP techniques. |
+| Topic |BERT-of-Theseus: Compressing BERT by Progressive Module Replacing |
+| Problem | problem addressed in the research paper "BERT-of-Theseus: Compressing BERT by Progressive Module Replacing" is the challenge of reducing the size and computational cost of large language models like BERT, while maintaining their accuracy and ability to generalize to new data. These models have shown remarkable performance on various natural language processing tasks, but their large size and computational requirements make them difficult to deploy in resource-constrained environments such as mobile devices or edge computing systems. |
 | Feature method | Stanza works by converting raw text input into a structured representation and using the structured representation to perform NLP tasks. The toolkit leverages the latest developments in deep learning and other NLP techniques, and is designed to be flexible, extensible, and compatible with different programming languages and platforms. |
 | Limitation | Stanza not being state-of-the-art in every NLP task, limited language coverage, high computational resource requirements, and potential performance issues with small or domain-specific data. |
 | Result | Show strong performance in NLP tasks, including named entity recognition, part-of-speech tagging, dependency parsing, and text classification. The pre-trained models have strong language coverage and the toolkit's architecture is flexible and easily customizable. |
