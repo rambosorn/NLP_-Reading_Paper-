@@ -14,21 +14,13 @@ BERT-of-Theseus: Compressing BERT by Progressive Module Replacing" provides a no
 |  |3. The need for a method that balances the trade-off between model size and accuracy, making it possible to deploy large language models in resource-constrained environments while maintaining their performance. |
 | Objective | Proposing a method for compressing BERT through the use of progressive module replacing, which allows for reducing the size of the model while maintaining its accuracy and performance on various natural language processing tasks. The authors aim to find a balance between model size and accuracy, making it possible to deploy large language models in resource-constrained environments while maintaining their performance.|
 | Solution | They proposed method of progressive module replacing effectively reduces the size of the BERT model while maintaining its accuracy and performance on benchmark datasets. This makes it a suitable solution for deploying large language models in resource-constrained environments. |
+|  | The progressive module replacing method works by gradually replacing the original BERT modules with smaller, computationally efficient modules, while maintaining the overall performance of the model. The method is designed to be done in a step-by-step manner, allowing the model to be fine-tuned after each replacement to ensure its performance is maintained.
+|  | 1. Train the original BERT model on a large-scale dataset to obtain the baseline performance.|
+|  | 2. Replace the original BERT modules with smaller, computationally efficient modules while keeping the overall architecture of the model intact.|
+|  | 3. Fine-tune the model with the new, smaller modules on the same large-scale dataset to evaluate its performance.|
+|  | 4. Repeat steps 2 and 3 until the desired level of compression is achieved.|
 | Limitation | Show strong performance in NLP tasks, including named entity recognition, part-of-speech tagging, dependency parsing, and text classification. The pre-trained models have strong language coverage and the toolkit's architecture is flexible and easily customizable. |
 | Conclusion and Future work | Focus on improving performance, expanding language coverage, optimizing resource efficiency, and developing advanced models for specific tasks. The authors believe Stanza is a significant step forward in NLP research and toolkit development. |
 
 ### Set Up Environment
-To install the Stanza library in your Python environment, you can run the following command:
 
-pip install stanza
-
-To set up the environment and download necessary models, use the following code:
-
- import stanza
- stanza.download("en")
- nlp = stanza.Pipeline("en")
-
-This will download the English models and set up a pipeline to process text in English. You can replace "en" with any other supported language code to process text in a different language.
-
-### Language Support
-Afrikaans, Albanian, Arabic, Armenian, Bengali, Bosnian, Bulgarian, Burmese, Cantonese, Catalan, Croatian, Czech, Danish, Dutch, English, Esperanto, Estonian, Finnish, French, Galician, Georgian, German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh, Korean, Kurdish, Latvian, Lithuanian, Macedonian, Malay, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali, Norwegian, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Serbian, Sinhalese, Slovak, Slovenian, Spanish, Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Uzbek, Vietnamese, and Welsh
