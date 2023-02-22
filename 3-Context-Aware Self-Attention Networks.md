@@ -15,4 +15,4 @@ This paper proposes a new type of self-attention mechanism that takes into accou
 |Result|help the model better capture the relationship between the context of a word and the sentiment expressed by the word.|
 | |By weighting each word in the input sequence based on its context, the model is able to focus on the most important words in the sequence for the sentiment analysis task.|
 | |proposed model outperforms several baseline models on two benchmark datasets for sentiment analysis, achieving state-of-the-art results and also perform the effectiveness of the context-aware attention mechanism.|
-|Limitation| Limitation: The paper acknowledges that the proposed model may not be suitable for all natural language processing tasks, and that there may be limitations to the approach in terms of computational complexity.|
+|Limitation| They acknowledges that the proposed model may not be suitable for all natural language processing tasks, and that there may be limitations to the approach in terms of computational complexity.|
