@@ -2,7 +2,7 @@
 Paper link: https://arxiv.org/pdf/1810.04805.pdf
 
 ### Introduction
-A new language representation model called BERT (Bidirectional Encoder Representations from Transformers). Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.
+A new language representation model that pre-trains deep bidirectional representations from unlabeled text data by conditioning on both left and right context in all layers. BERT is pre-trained on a large corpus of text data using two novel unsupervised prediction tasks, including masked language modeling and next sentence prediction. The pre-trained BERT model can then be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of NLP tasks. The experimental results show that BERT outperforms previous state-of-the-art models on a wide range of NLP tasks, demonstrating the effectiveness of pre-training deep bidirectional representations.
 
 
 | Command | Description |
