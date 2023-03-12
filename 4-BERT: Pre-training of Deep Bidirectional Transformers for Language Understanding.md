@@ -12,4 +12,9 @@ A new language representation model that pre-trains deep bidirectional represent
 |Related Work| The paper starts by discussing the previous pre-training methods for language representation models, including the word embedding-based methods and the context-based methods. It highlights the limitations of these methods, such as their inability to capture long-range dependencies and their reliance on left or right context.|
 |Model Architecture |The BERT model architecture is a multi-layer bidirectional transformer encoder that is pre-trained on a large corpus of unlabeled text using two novel unsupervised prediction tasks: masked language modeling and next sentence prediction. The main building block of the BERT architecture is the transformer encoder, which consists of a stack of multiple identical layers with a multi-head self-attention mechanism and a position-wise fully connected feed-forward network. During fine-tuning, the pre-trained BERT model is adapted to specific downstream NLP tasks by adding one or more task-specific output layers on top of the pre-trained encoder.|
 |Result|concludes by summarizing the results and highlighting the improvements achieved by BERT over previous state-of-the-art models. It also discusses the limitations of BERT, such as its high computational cost and the need for large amounts of unlabeled data for pre-training. The paper concludes by discussing future directions for research in language representation models and the potential applications of BERT in real-world NLP tasks.|
+|Future Work| BERT paper suggests that future work in language representation models should focus on improving efficiency, developing better pre-training methods, exploring multilingual models, better understanding representations, and improving generalization to new domains and applications.|
+
+
+
+
 
