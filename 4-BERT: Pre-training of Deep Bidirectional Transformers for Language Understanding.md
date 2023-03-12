@@ -8,10 +8,6 @@ A new language representation model that pre-trains deep bidirectional represent
 | Command | Description |
 | --- | --- |
 |Topic| BERT: Pre-training of Deep Bidirectional Transformers for Language Understan |
-|Problem| Standard self-attention mechanisms may not effectively capture contextual information, leading to reduced performance on certain natural language processing tasks.   |
-|Related Work| Existing work in self-attention mechanisms and contextual modeling, such as the Transformer model and the ELMo model.|
-|Objective| They introduce the Context-Aware Self-Attention (CASA) Network, which incorporates contextual information into the self-attention mechanism to improve performance on natural language processing tasks.|
-|Result|help the model better capture the relationship between the context of a word and the sentiment expressed by the word.|
-| |By weighting each word in the input sequence based on its context, the model is able to focus on the most important words in the sequence for the sentiment analysis task.|
-| |proposed model outperforms several baseline models on two benchmark datasets for sentiment analysis, achieving state-of-the-art results and also perform the effectiveness of the context-aware attention mechanism.|
-|Limitation| They acknowledges that the proposed model may not be suitable for all natural language processing tasks, and that there may be limitations to the approach in terms of computational complexity.|
+|Problem| presents the problem of improving the performance of NLP tasks by pre-training deep bidirectional representations from unlabeled text. It discusses the challenges of designing a model that can effectively capture dependencies between different parts of a sentence and can be fine-tuned for specific NLP tasks without substantial architecture modifications. |
+|Related Work| The paper starts by discussing the previous pre-training methods for language representation models, including the word embedding-based methods and the context-based methods. It highlights the limitations of these methods, such as their inability to capture long-range dependencies and their reliance on left or right context.|
+|Result|concludes by summarizing the results and highlighting the improvements achieved by BERT over previous state-of-the-art models. It also discusses the limitations of BERT, such as its high computational cost and the need for large amounts of unlabeled data for pre-training. The paper concludes by discussing future directions for research in language representation models and the potential applications of BERT in real-world NLP tasks.|
