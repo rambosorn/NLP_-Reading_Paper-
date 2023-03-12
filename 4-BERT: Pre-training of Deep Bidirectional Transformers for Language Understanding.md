@@ -2,7 +2,7 @@
 Paper link: https://arxiv.org/pdf/1810.04805.pdf
 
 ### Introduction
-This paper proposes a new type of self-attention mechanism that takes into account the context of the input sequence. The proposed model, called the Context-Aware Self-Attention Network (CASA), is designed to capture the contextual information of a sequence by attending to different parts of the sequence based on their relevance to the context. They avaluate it several natural language processing tasks, including sentiment analysis and machine translation, and demonstra models in terms of accuracy and efficiency.
+A new language representation model called BERT (Bidirectional Encoder Representations from Transformers). Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.
 
 
 | Command | Description |
