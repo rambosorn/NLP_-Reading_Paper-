@@ -7,7 +7,7 @@ This paper proposes a new type of self-attention mechanism that takes into accou
 
 | Command | Description |
 | --- | --- |
-|Topic| Context-Aware Self-Attention Networks. |
+|Topic| BERT: Pre-training of Deep Bidirectional Transformers for Language Understan |
 |Problem| Standard self-attention mechanisms may not effectively capture contextual information, leading to reduced performance on certain natural language processing tasks.   |
 |Related Work| Existing work in self-attention mechanisms and contextual modeling, such as the Transformer model and the ELMo model.|
 |Objective| They introduce the Context-Aware Self-Attention (CASA) Network, which incorporates contextual information into the self-attention mechanism to improve performance on natural language processing tasks.|
